@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "hmlp.xmodel",
+    "kernel": [
+        "subgraph_quant_dense(TransferMatMulToConv2d)"
+    ],
+    "target": "DPUCZDX8G_ISA1_B4096_0101000056010407"
+}
